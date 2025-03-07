@@ -1,13 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: #CDCBFF;
-    background-color: #001D21;
+    font-family: Inter;
+    
     
 }
-.navbar{
-    
+.container{
+    background-color:#001D21 ;
+    height: auto;
 }
 .hero-section{
     background-color: #001D21;
@@ -173,18 +178,232 @@ vertical-align: middle;
     border-right: 0;
 }
  .button button{
+font-family: Inter;
+font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+letter-spacing: -0.03px;
+text-align: center;
+vertical-align: middle;
+border: 0;
+outline: 0;        
+background-color: #002B31;
+margin-top: 30px;
+height: 35px;
+width: 100%;
+border-radius: 30px;
+}
+.fund-management{
+height: 250px;
+width: 85%;
+background-color: #CDEED3;
+margin: auto;
+position: relative;
+
+}
+.fund-text{
+width: 50%;
+height: 250px;
+float: left;
+background-color: #CDEED3;
+color: #544A2E;
+justify-content: center;
+text-align: center;
+padding: 50px;
+top: 48.5px;
+
+}
+.fund-text h3{
+background-color: #CDEED3;
+height: 20;
+color: #544A2E;
+font-family: Inter;
+font-weight: 400;
+font-size: 24px;
+line-height: 36.4px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+
+
+}
+.fund-text p{
+background-color: #CDEED3;
+color: #544A2E;
+font-family: Inter;
+font-weight: 400;
+font-size: 14.38px;
+line-height: 24px;
+letter-spacing: -0.03px;
+vertical-align: middle;
+padding-top: 20px;
+
+}
+.fund-text p a{
+background-color: #CDEED3;
+color: #544A2E;
+}
+.countdown{
+width: 100%;
+height: 600px;
+background-color: #6E5C3B;
+margin-top: 70px;
+
+}
+.countdown-content{
+    width: 85%;
+    height: 400px;
+    margin: auto;
+    padding-top: 40px;
+
+}
+
+.coutdown-sections{
+    width: 30%;
+    height: 400px;
+    float: left;
+}
+.texts{
+    text-align: left;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: #E0FEE6;
+    
+}
+.texts h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    color: #E0FEE6;
+}
+.texts h1{
+    color: #E0FEE6;
+}
+.texts p{
+font-family: Inter;
+font-weight: 400;
+font-size: 12px;
+line-height: 15.8px;
+letter-spacing: -0.05px;
+vertical-align: middle;
+padding-top: 20px;
+color: #E0FEE6;
+}
+.texts img{
+    width: 80%;
+}
+.texts .imagep{
+    padding-top: 8px;
+}
+.texts button{
+    background-color: #E0FEE626;
+    width: 60px;
+    height: 22px;
+    top: 259.59px;
+    border-radius: 4px;
+    margin-top: 10px;
+    border: 0;
+    outline: 0;
+    color: #E0FEE6;
+    
+}
+.coutdown-sections2{
+    width: 60%;
+    height: 400px;
+    float: right;
+    text-align: right;
+
+}
+.count{
+    height: 230px;
+    color: #E0FEE6;
+    border-top: solid 1px #5D5337;
+    width: 80%;
+    float: right;
+}
+.count h1{
+    text-align: right;
     font-family: Inter;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: -0.03px;
-    text-align: center;
+    font-size: 160px;
+    line-height: 194.4px;
+    letter-spacing: -8.64px;
     vertical-align: middle;
-    border: 0;
-    outline: 0;        
-    background-color: #002B31;
-    margin-top: 30px;
-    height: 35px;
+    color: #E0FEE6;
+    position: relative;
+   
+    
+}
+.count p small{
+    position: absolute;
+font-family: Inter;
+font-weight: 400;
+font-size: 10.5px;
+line-height: 24px;
+letter-spacing: -0.03px;
+left: 599px;
+margin-top: -20px;
+color: #E0FEE6;
+
+}
+.count .top{
+    height: 150px;
+    color: #E0FEE6;
+    border-bottom: solid 1px #5D5337;
     width: 100%;
-    border-radius: 30px;
+    
+}
+.top .top1{
+    width: 50%;
+    height: 150px;
+    float: left;
+    font-family: Inter;
+
+}
+.top .top1 h3{
+font-weight: 400;
+font-size: 64.96px;
+line-height: 110px;
+letter-spacing: -4px;
+vertical-align: middle;
+color: #E0FEE6;
+padding-right: 40px;
+
+}
+.count .top1 p small{
+position: relative;
+font-family: Inter;
+font-weight: 400;
+font-size: 10.5px;
+line-height: 24px;
+letter-spacing: -0.03px;
+left: 580px;
+margin-top: -20px;
+color: #E0FEE6;
+
+}
+.count .top1 p small{
+position: relative;
+font-family: Inter;
+font-weight: 400;
+font-size: 10.5px;
+line-height: 24px;
+letter-spacing: -0.03px;
+left: 580px;
+margin-top: -20px;
+color: #E0FEE6;
+
+}
+.top .top2{
+    width: 50%;
+    height: 150px;
+    float: left;
+}
+.top .top2 h3{
+    font-weight: 400;
+font-size: 64.96px;
+line-height: 110px;
+letter-spacing: -4px;
+vertical-align: middle;
+color: #E0FEE6;
 }
